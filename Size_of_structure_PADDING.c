@@ -9,6 +9,9 @@
 }ST;
 main()
 {
-	
-	printf("Size of %d",sizeof(ST));
+	ST arr[2]; //*p=NULL and then P++
+    int sz = (char*)&arr[1] - (char*)&arr[0];
+    printf("%d",sz);
+    return 0;
 }
+
