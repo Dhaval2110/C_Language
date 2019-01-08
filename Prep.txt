@@ -1,0 +1,6 @@
+1. Write down smallest executable program in C?
+Ans. void main()
+{
+}
+2.Why pre-processor directive does not have a semi-colon at last?
+Ans. Semi-colon is needed by the compiler and as the name suggests Preprocessors are programs that process our source code before compilation. Therefore the semi-colon is not required.
