@@ -61,5 +61,48 @@ c++;
 }
 printf("No of set bits is c=%d\n",c);
 */
-
+//6. No is power of n or not.
+/*
+printf("Enter the power to verify\n");
+scanf("%d",&i);
+int num=n;
+while(n)
+{
+{
+	if(n%i==1)
+	break;
+}
+n/=i;
+}
+if(n==1)
+printf("%d is power of %d\n",num0,i);
+else
+printf("%d is not power of %d\n",num,i);
+*/
+//7. divisible by 8 or not
+/*
+i = n & 7;
+if(i==0)
+printf("No is divisible by 8\n");
+else
+printf("No is not divisible by 8\n");
+*/
+//8. convert character to upper case or lower case vise versa
+/*
+char ch;
+printf("Enter the ch\n");
+scanf("%c",&ch);
+if(ch>=97 && ch<=122)
+ch=ch&~(1<<5);
+printf("%c\n",ch);
+*/
+//9. two variables have opposite signs
+/*
+printf("Enter the value of i\n");
+scanf("%d",&i);
+if((n^i)<0)
+printf("Opposite\n");
+else
+printf("Not opposite\n");
+*/
 }
